@@ -5,7 +5,7 @@
 import cv2
 import numpy as np
 
-image = cv2.imread('/Users/lordk/Github/BARAM_SEMINAR_DEEPLEARNING/robot.jpg')
+image = cv2.imread('/Users/lordk/Github/BARAM_SEMINAR_DEEPLEARNING/images/robot.jpg')
 
 horizontal_filter = np.array([[-1, -1, -1], [0, 0, 0], [1, 1, 1]])
 vertical_filter = np.array([[1, 0, -1], [1, 0, -1], [1, 0, -1]])
